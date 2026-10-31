@@ -13,14 +13,14 @@
 <meta property="og:title" content="Book Your Stay | Vourvourou Beach House, Halkidiki">
 <meta property="og:description" content="Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.">
 <meta property="og:url" content="https://avellagency.github.io/beachhouse/book.html">
-<meta property="og:image" content="https://avellagency.github.io/beachhouse/uploads/slika_01.jpg">
+<meta property="og:image" content="https://avellagency.github.io/beachhouse/slika_01.jpg">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Book Your Stay | Vourvourou Beach House, Halkidiki">
 <meta name="twitter:description" content="Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.">
-<meta name="twitter:image" content="https://avellagency.github.io/beachhouse/uploads/slika_01.jpg">
+<meta name="twitter:image" content="https://avellagency.github.io/beachhouse/slika_01.jpg">
 <meta name="geo.region" content="GR-B"><meta name="geo.placename" content="Vourvourou, Halkidiki">
-<link rel="preload" as="image" href="uploads/slika_08.jpg">
+<link rel="preload" as="image" href="slika_08.jpg">
 
 <script src="./support.js"></script>
 <script src="./fx.js" defer></script>
@@ -73,7 +73,7 @@ input,select,button{font-family:inherit}
 </sc-if>
 
 <header style="position:relative;height:60svh;min-height:420px;overflow:hidden;color:#fff;display:flex;align-items:flex-end">
-  <img src="uploads/slika_08.jpg" alt="Veranda above the beach" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:heroZoom 2.4s cubic-bezier(.16,1,.3,1) both">
+  <img src="slika_08.jpg" alt="Veranda above the beach" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:heroZoom 2.4s cubic-bezier(.16,1,.3,1) both">
   <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,24,32,.35),rgba(12,24,32,0) 40%,rgba(12,24,32,.65))"></div>
   <div style="position:relative;padding:0 clamp(20px,5vw,64px) clamp(28px,4vw,56px);max-width:1400px;width:100%;margin:0 auto"><h1 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(60px,10vw,150px);line-height:.9;letter-spacing:-.02em;animation:rise 1.4s .3s cubic-bezier(.16,1,.3,1) both">Book your <em style="color:#E8D6B0">stay</em></h1></div>
 </header>
@@ -176,7 +176,7 @@ input,select,button{font-family:inherit}
   </div>
   <sc-if value="{{ notMobile }}" hint-placeholder-val="{{ true }}">
     <aside style="position:sticky;top:100px"><div style="padding:8px;border-radius:28px;background:#fff;border:1px solid rgba(0,0,0,.08)">
-        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="uploads/slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
         <div style="padding:20px 16px 16px;display:flex;flex-direction:column;gap:14px">
           <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:32px">Your <em style="color:#0F4C6E">stay</em></h3>
           <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Dates</span><span>{{ datesLabel }}</span></div>
@@ -194,7 +194,7 @@ input,select,button{font-family:inherit}
 <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
   <div style="position:fixed;left:10px;right:10px;bottom:10px;z-index:80;display:flex;flex-direction:column;gap:8px">
     <sc-if value="{{ sumOpen }}" hint-placeholder-val="{{ false }}"><div style="max-height:70svh;overflow:auto;animation:rise .7s cubic-bezier(.16,1,.3,1) both"><div style="padding:8px;border-radius:28px;background:#fff;border:1px solid rgba(0,0,0,.08)">
-        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="uploads/slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
         <div style="padding:20px 16px 16px;display:flex;flex-direction:column;gap:14px">
           <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:32px">Your <em style="color:#0F4C6E">stay</em></h3>
           <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Dates</span><span>{{ datesLabel }}</span></div>
@@ -234,7 +234,7 @@ input,select,button{font-family:inherit}
 </x-dc>
 <script type="text/x-dc" data-dc-script>
 const PHONE = '306977433931';
-const U = n => 'uploads/slika_' + n + '.jpg';
+const U = n => 'slika_' + n + '.jpg';
 const GALLERY = [
   ['01','Terrace','Cocktails at dusk'],['11','Terrace','Garden lights at night'],['08','Terrace','Veranda above the beach'],['12','Terrace','Stone patio'],['06','Terrace','Outdoor lounge'],['10','Terrace','Wicker sofa'],['13','Terrace','Lunch by the sea'],['25-x','Terrace','Outdoor kitchen'],
   ['03','Views','Aerial view'],['04','Views','Beach and dock'],['05','Views','House from the sea'],['14','Views','The dock'],['02','Views','Dock at dusk'],['16','Views','Sunset'],['15','Views','Nearby beach'],['17','Views','Boat trip'],['18','Views','Pine cove'],['29','Views','Window view'],
