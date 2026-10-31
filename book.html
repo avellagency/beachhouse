@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book Your Stay | Vourvourou Beach House, Halkidiki</title>
+<meta name="description" content="Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://avellagency.github.io/beachhouse/book.html">
+<meta name="theme-color" content="#0C1820">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Vourvourou Beach House">
+<meta property="og:title" content="Book Your Stay | Vourvourou Beach House, Halkidiki">
+<meta property="og:description" content="Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.">
+<meta property="og:url" content="https://avellagency.github.io/beachhouse/book.html">
+<meta property="og:image" content="https://avellagency.github.io/beachhouse/uploads/slika_01.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Book Your Stay | Vourvourou Beach House, Halkidiki">
+<meta name="twitter:description" content="Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.">
+<meta name="twitter:image" content="https://avellagency.github.io/beachhouse/uploads/slika_01.jpg">
+<meta name="geo.region" content="GR-B"><meta name="geo.placename" content="Vourvourou, Halkidiki">
+<link rel="preload" as="image" href="uploads/slika_08.jpg">
+
+<script src="./support.js"></script>
+<script src="./fx.js" defer></script>
+</head>
+<body>
+<noscript><h1>Book Your Stay | Vourvourou Beach House, Halkidiki</h1><p>Check availability and request a booking at the Vourvourou Beach House in Halkidiki, Greece. Direct contact via WhatsApp or Viber: +30 697 743 3931.</p><p>WhatsApp / Viber: +30 697 743 3931</p></noscript>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;background:#F4F1EA;color:#0E1A24;font-family:'Inter Tight',sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#0F4C6E;text-decoration:none}a:hover{color:#0E1A24}
+@keyframes pulse{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:1;transform:translateY(6px)}}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes marq{to{transform:translateX(-50%)}}
+@keyframes heroZoom{from{transform:scale(1.15)}to{transform:scale(1)}}
+@keyframes rise{from{opacity:0;filter:blur(12px);transform:translateY(30px)}to{opacity:1;filter:blur(0);transform:none}}
+input,select,button{font-family:inherit}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</helmet>
+
+<div style="position:fixed;inset:0;pointer-events:none;z-index:200;opacity:.05;background-image:url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E&quot;)"></div>
+
+<nav ref="{{ navRef }}" style="position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:100;width:min(1100px,calc(100% - 24px));display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 10px 10px 22px;border-radius:999px;background:rgba(244,241,234,.55);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.4);transition:transform .8s cubic-bezier(.16,1,.3,1)">
+  <a href="index.html" style="font-family:'Instrument Serif',serif;font-size:clamp(20px,5vw,26px);color:#0E1A24;line-height:1;white-space:nowrap">Vourvourou <em style="color:#0F4C6E">Beach House</em></a>
+  <div style="display:{{ deskDisplay }};gap:28px;font-size:14px">
+    <a href="house.html" style="color:#0E1A24">The house</a>
+    <a href="gallery.html" style="color:#0E1A24">Gallery</a>
+    <a href="location.html" style="color:#0E1A24">Location</a>
+    <a href="book.html" style="color:#0E1A24">Book</a>
+  </div>
+  <div style="display:flex;gap:8px;align-items:center">
+    <a href="book.html" style="padding:12px 20px;border-radius:999px;background:#0E1A24;color:#F4F1EA;font-size:14px;font-weight:500;white-space:nowrap">{{ navBook }}</a>
+    <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+      <button onClick="{{ toggleMenu }}" style="width:44px;height:44px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:transparent;font-size:13px;cursor:pointer">{{ menuLabel }}</button>
+    </sc-if>
+  </div>
+</nav>
+
+<sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;inset:0;z-index:90;background:#0C1820;color:#F4F1EA;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:32px">
+    <sc-for list="{{ menuLinks }}" as="l" hint-placeholder-count="4">
+      <a href="{{ l.href }}" onClick="{{ closeMenu }}" style="font-family:'Instrument Serif',serif;font-size:56px;color:#F4F1EA;line-height:1.1;animation:rise 1s cubic-bezier(.16,1,.3,1) both;animation-delay:{{ l.delay }}">{{ l.label }}</a>
+    </sc-for>
+    <a href="tel:+306977433931" style="margin-top:32px;color:#C2A273;font-size:15px">+30 697 743 3931</a>
+  </div>
+</sc-if>
+
+<header style="position:relative;height:60svh;min-height:420px;overflow:hidden;color:#fff;display:flex;align-items:flex-end">
+  <img src="uploads/slika_08.jpg" alt="Veranda above the beach" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;animation:heroZoom 2.4s cubic-bezier(.16,1,.3,1) both">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,24,32,.35),rgba(12,24,32,0) 40%,rgba(12,24,32,.65))"></div>
+  <div style="position:relative;padding:0 clamp(20px,5vw,64px) clamp(28px,4vw,56px);max-width:1400px;width:100%;margin:0 auto"><h1 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(60px,10vw,150px);line-height:.9;letter-spacing:-.02em;animation:rise 1.4s .3s cubic-bezier(.16,1,.3,1) both">Book your <em style="color:#E8D6B0">stay</em></h1></div>
+</header>
+<section id="booking" style="padding:clamp(40px,6vw,80px) clamp(20px,5vw,64px) clamp(120px,10vw,160px);max-width:1320px;margin:0 auto;display:grid;grid-template-columns:{{ bookCols }};gap:32px;align-items:start">
+  <div style="display:flex;flex-direction:column;gap:32px;min-width:0">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div style="display:flex;justify-content:space-between;font-size:14px"><sc-for list="{{ steps }}" as="s" hint-placeholder-count="3"><span style="color:{{ s.color }};transition:color .6s">{{ s.label }}</span></sc-for></div>
+      <div style="height:2px;background:rgba(0,0,0,.08)"><div style="height:2px;width:{{ progress }};background:#0F4C6E;transition:width 1s cubic-bezier(.16,1,.3,1)"></div></div>
+    </div>
+    <sc-if value="{{ isStep1 }}" hint-placeholder-val="{{ true }}">
+      <div style="display:flex;flex-direction:column;gap:20px;animation:rise .9s cubic-bezier(.16,1,.3,1) both">
+        <!-- OVDE KASNIJE IDE PRAVI BOOKING (Smoobu) -->
+        <div style="padding:clamp(16px,3vw,28px);border-radius:24px;background:#fff;border:1px solid rgba(0,0,0,.08);display:flex;flex-direction:column;gap:16px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+            <button onClick="{{ prevMonth }}" disabled="{{ prevOff }}" style="width:44px;height:44px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:transparent;font-size:16px;cursor:pointer;opacity:{{ prevOpacity }}">←</button>
+            <span style="font-size:14px;color:rgba(14,26,36,.6);text-align:center">{{ pickHint }}</span>
+            <button onClick="{{ nextMonth }}" style="width:44px;height:44px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:transparent;font-size:16px;cursor:pointer">→</button>
+          </div>
+          <div style="display:grid;grid-template-columns:{{ monthCols }};gap:clamp(20px,4vw,48px)">
+            <sc-for list="{{ months }}" as="m" hint-placeholder-count="2">
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:28px">{{ m.name }}</h3>
+                <div style="display:grid;grid-template-columns:repeat(7,1fr);font-size:12px;color:rgba(14,26,36,.45);text-align:center"><span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span></div>
+                <div style="display:grid;grid-template-columns:repeat(7,1fr);row-gap:2px">
+                  <sc-for list="{{ m.cells }}" as="c" hint-placeholder-count="35">
+                    <div style="background:{{ c.band }};border-radius:{{ c.bandR }};transition:background .5s cubic-bezier(.16,1,.3,1)">
+                      <button onClick="{{ c.pick }}" disabled="{{ c.off }}" style="width:100%;aspect-ratio:1;max-height:52px;border:0;border-radius:999px;background:{{ c.bg }};color:{{ c.fg }};text-decoration:{{ c.deco }};font-size:15px;cursor:{{ c.cursor }};visibility:{{ c.vis }};transition:background .5s cubic-bezier(.16,1,.3,1),color .5s">{{ c.d }}</button>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+          <div style="display:flex;gap:20px;flex-wrap:wrap;font-size:13px;color:rgba(14,26,36,.6)"><span style="display:flex;gap:8px;align-items:center"><span style="width:12px;height:12px;border-radius:999px;background:#0F4C6E"></span>Selected</span><span style="display:flex;gap:8px;align-items:center"><span style="text-decoration:line-through;color:rgba(14,26,36,.35)">14</span>Booked</span></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 16px;border-radius:20px;border:1px solid rgba(0,0,0,.08);background:#fff">
+          <span style="font-size:15px">Guests <span style="color:rgba(14,26,36,.5)">· up to 6</span></span>
+          <div style="display:flex;align-items:center;gap:14px">
+            <button onClick="{{ guestDec2 }}" style="width:44px;height:44px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:transparent;font-size:18px;cursor:pointer">−</button>
+            <span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:28px;min-width:20px;text-align:center">{{ g }}</span>
+            <button onClick="{{ guestInc2 }}" style="width:44px;height:44px;border-radius:999px;border:1px solid rgba(0,0,0,.12);background:transparent;font-size:18px;cursor:pointer">+</button>
+          </div>
+        </div>
+        <sc-if value="{{ minMsg }}" hint-placeholder-val="{{ false }}"><p style="margin:0;font-size:14px;color:#B4532A">{{ minMsg }}</p></sc-if>
+        <button onClick="{{ toStep2 }}" disabled="{{ step1Off }}" style="padding:18px 28px;border-radius:999px;border:0;background:#0E1A24;color:#F4F1EA;font-weight:500;font-size:15px;cursor:pointer;transition:opacity .4s;align-self:flex-start;opacity:{{ step1Opacity }}">Continue to details →</button>
+      </div>
+    </sc-if>
+    <sc-if value="{{ isStep2 }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;gap:16px;animation:rise .9s cubic-bezier(.16,1,.3,1) both">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px">
+          <sc-for list="{{ fields }}" as="f" hint-placeholder-count="4">
+            <label style="display:flex;flex-direction:column;gap:6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:rgba(14,26,36,.6)">{{ f.label }}
+              <input type="{{ f.type }}" value="{{ f.value }}" onChange="{{ f.onChange }}" onBlur="{{ f.onBlur }}" style="padding:14px;border-radius:14px;background:#fff;font-size:15px;color:#0E1A24;outline:none;transition:border-color .4s;border:1px solid {{ f.border }}">
+              <span style="font-size:12px;letter-spacing:0;text-transform:none;color:#B4532A;min-height:16px">{{ f.err }}</span>
+            </label>
+          </sc-for>
+          <label style="display:flex;flex-direction:column;gap:6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:rgba(14,26,36,.6)">Arrival time
+            <select value="{{ arrival }}" onChange="{{ setArrival }}" style="padding:14px;border-radius:14px;background:#fff;font-size:15px;color:#0E1A24;outline:none;transition:border-color .4s;border:1px solid rgba(0,0,0,.1)"><sc-for list="{{ hours }}" as="h" hint-placeholder-count="10"><option value="{{ h }}">{{ h }}</option></sc-for></select>
+          </label>
+        </div>
+        <label style="display:flex;flex-direction:column;gap:6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:rgba(14,26,36,.6)">Note
+          <textarea value="{{ note }}" onChange="{{ setNote }}" rows="4" placeholder="Anything we should prepare for you?" style="padding:14px;border-radius:14px;background:#fff;font-size:15px;color:#0E1A24;outline:none;transition:border-color .4s;border:1px solid rgba(0,0,0,.1);resize:vertical;font-family:inherit"></textarea>
+        </label>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <button onClick="{{ toStep1 }}" style="padding:18px 24px;border-radius:999px;border:1px solid rgba(0,0,0,.15);background:transparent;font-size:15px;cursor:pointer">← Back</button>
+          <button onClick="{{ toStep3 }}" style="padding:18px 28px;border-radius:999px;border:0;background:#0E1A24;color:#F4F1EA;font-weight:500;font-size:15px;cursor:pointer;transition:opacity .4s;opacity:{{ step2Opacity }}">Review booking →</button>
+        </div>
+      </div>
+    </sc-if>
+    <sc-if value="{{ isStep3 }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;flex-direction:column;gap:20px;animation:rise .9s cubic-bezier(.16,1,.3,1) both">
+        <sc-if value="{{ notDone }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;flex-direction:column;gap:20px">
+            <div style="border-radius:24px;background:#fff;border:1px solid rgba(0,0,0,.08);padding:8px 24px">
+              <sc-for list="{{ review }}" as="r" hint-placeholder-count="8"><div style="display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid rgba(0,0,0,.06);font-size:15px"><span style="color:rgba(14,26,36,.55)">{{ r.k }}</span><span style="text-align:right">{{ r.v }}</span></div></sc-for>
+            </div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button onClick="{{ toStep2b }}" style="padding:18px 24px;border-radius:999px;border:1px solid rgba(0,0,0,.15);background:transparent;font-size:15px;cursor:pointer">← Back</button>
+              <button onClick="{{ request }}" style="padding:18px 28px;border-radius:999px;border:0;background:#0E1A24;color:#F4F1EA;font-weight:500;font-size:15px;cursor:pointer;transition:opacity .4s;background:#0F4C6E">Request booking</button>
+            </div>
+          </div>
+        </sc-if>
+        <sc-if value="{{ done }}" hint-placeholder-val="{{ false }}">
+          <div style="padding:clamp(32px,5vw,64px);border-radius:24px;background:#fff;border:1px solid rgba(0,0,0,.08);display:flex;flex-direction:column;align-items:flex-start;gap:16px">
+            <svg width="72" height="72" viewBox="0 0 72 72"><circle cx="36" cy="36" r="34" fill="none" stroke="#0F4C6E" stroke-width="2"></circle><path d="M22 37l9 9 19-20" fill="none" stroke="#0F4C6E" stroke-width="3" stroke-linecap="round" stroke-dasharray="50" stroke-dashoffset="50" style="animation:draw 1s .3s cubic-bezier(.16,1,.3,1) forwards"></path></svg>
+            <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(40px,5vw,64px);line-height:1">Request <em style="color:#0F4C6E">received!</em></h2>
+            <p style="margin:0;font-size:17px;color:rgba(14,26,36,.7)">We'll confirm within 24h.</p>
+          </div>
+        </sc-if>
+      </div>
+    </sc-if>
+    <div style="display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:1px solid rgba(0,0,0,.08)">
+      <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:36px">Prefer to <em style="color:#0F4C6E">talk?</em></h3>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a href="https://wa.me/306977433931" target="_blank" rel="noopener" style="padding:16px 24px;border-radius:999px;background:#0E1A24;color:#F4F1EA;font-size:15px">WhatsApp</a>
+        <a href="viber://chat?number=%2B306977433931" style="padding:16px 24px;border-radius:999px;border:1px solid rgba(0,0,0,.15);color:#0E1A24;font-size:15px">Viber</a>
+        <a href="tel:+306977433931" style="padding:16px 24px;color:#0E1A24;font-size:15px">+30 697 743 3931</a>
+      </div>
+    </div>
+  </div>
+  <sc-if value="{{ notMobile }}" hint-placeholder-val="{{ true }}">
+    <aside style="position:sticky;top:100px"><div style="padding:8px;border-radius:28px;background:#fff;border:1px solid rgba(0,0,0,.08)">
+        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="uploads/slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="padding:20px 16px 16px;display:flex;flex-direction:column;gap:14px">
+          <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:32px">Your <em style="color:#0F4C6E">stay</em></h3>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Dates</span><span>{{ datesLabel }}</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Guests</span><span>{{ guestsLabel }}</span></div>
+          <div style="height:1px;background:rgba(0,0,0,.08)"></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">{{ nightsCalc }}</span><span>{{ nightsTotal }}</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Cleaning fee</span><span>{{ cleaning }}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:15px">Total</span><span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:40px">{{ total }}</span></div>
+          <p style="margin:0;font-size:12px;line-height:1.5;color:rgba(14,26,36,.55)">Climate Resilience Tax (€10/night Apr–Oct, €4/night Nov–Mar) payable upon arrival.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:6px"><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Private beach access</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Free parking</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Free SUP</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Sea view</span></div>
+        </div>
+      </div></aside>
+  </sc-if>
+</section>
+<sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;left:10px;right:10px;bottom:10px;z-index:80;display:flex;flex-direction:column;gap:8px">
+    <sc-if value="{{ sumOpen }}" hint-placeholder-val="{{ false }}"><div style="max-height:70svh;overflow:auto;animation:rise .7s cubic-bezier(.16,1,.3,1) both"><div style="padding:8px;border-radius:28px;background:#fff;border:1px solid rgba(0,0,0,.08)">
+        <div style="border-radius:22px;overflow:hidden;aspect-ratio:16/9"><img src="uploads/slika_05.jpg" alt="The house from the sea" style="width:100%;height:100%;object-fit:cover"></div>
+        <div style="padding:20px 16px 16px;display:flex;flex-direction:column;gap:14px">
+          <h3 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:32px">Your <em style="color:#0F4C6E">stay</em></h3>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Dates</span><span>{{ datesLabel }}</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Guests</span><span>{{ guestsLabel }}</span></div>
+          <div style="height:1px;background:rgba(0,0,0,.08)"></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">{{ nightsCalc }}</span><span>{{ nightsTotal }}</span></div>
+          <div style="display:flex;justify-content:space-between;font-size:15px"><span style="color:rgba(14,26,36,.6)">Cleaning fee</span><span>{{ cleaning }}</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:15px">Total</span><span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:40px">{{ total }}</span></div>
+          <p style="margin:0;font-size:12px;line-height:1.5;color:rgba(14,26,36,.55)">Climate Resilience Tax (€10/night Apr–Oct, €4/night Nov–Mar) payable upon arrival.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:6px"><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Private beach access</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Free parking</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Free SUP</span><span style="padding:7px 12px;border-radius:999px;border:1px solid rgba(0,0,0,.1);font-size:12px">Sea view</span></div>
+        </div>
+      </div></div></sc-if>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 10px 10px 20px;border-radius:999px;background:rgba(12,24,32,.92);backdrop-filter:blur(16px);color:#F4F1EA">
+      <button onClick="{{ toggleSum }}" style="background:transparent;border:0;color:#F4F1EA;text-align:left;padding:0;cursor:pointer;display:flex;flex-direction:column"><span style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.6">Total {{ sumArrow }}</span><span style="font-family:'Instrument Serif',serif;font-weight:400;font-size:26px;line-height:1.1">{{ total }}</span></button>
+      <button onClick="{{ barAction }}" style="padding:14px 22px;border-radius:999px;border:0;background:#F4F1EA;color:#0E1A24;font-size:15px;font-weight:500;cursor:pointer">{{ barLabel }}</button>
+    </div>
+  </div>
+</sc-if>
+
+
+<footer style="background:#0C1820;color:#F4F1EA;padding:clamp(80px,10vw,140px) clamp(20px,5vw,64px) 32px">
+  <div style="max-width:1400px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(56px,8vw,112px)">
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:32px">
+      <h2 style="margin:0;font-family:'Instrument Serif',serif;font-weight:400;font-size:clamp(48px,7vw,112px);line-height:.95;max-width:900px">Your Vourvourou <em style="color:#C2A273">escape</em> awaits</h2>
+      <a href="book.html" style="padding:18px 28px;border-radius:999px;background:#F4F1EA;color:#0E1A24;font-weight:500;font-size:15px">Book your stay →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:32px;font-size:15px;line-height:1.7;border-top:1px solid rgba(255,255,255,.12);padding-top:40px">
+      <div><div style="font-family:'Instrument Serif',serif;font-size:24px;margin-bottom:8px">Vourvourou Beach House</div><span style="color:rgba(244,241,234,.6)">A private beach front home under the pines.</span></div>
+      <div style="display:flex;flex-direction:column"><span style="color:#C2A273;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px">Pages</span><a href="house.html" style="color:#F4F1EA">The house</a><a href="gallery.html" style="color:#F4F1EA">Gallery</a><a href="location.html" style="color:#F4F1EA">Location</a><a href="book.html" style="color:#F4F1EA">Book</a></div>
+      <div style="display:flex;flex-direction:column"><span style="color:#C2A273;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px">Contact</span><a href="https://wa.me/306977433931" style="color:#F4F1EA">WhatsApp</a><a href="viber://chat?number=%2B306977433931" style="color:#F4F1EA">Viber</a><a href="tel:+306977433931" style="color:#F4F1EA">+30 697 743 3931</a></div>
+      <div style="display:flex;flex-direction:column"><span style="color:#C2A273;font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px">Location</span><span>Vourvourou, Sithonia</span><span>Halkidiki, Greece</span></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:13px;color:rgba(244,241,234,.45)"><span>© 2026 Vourvourou Beach House</span><a href="#top" style="color:rgba(244,241,234,.6)">Back to top ↑</a></div>
+  </div>
+</footer>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const PHONE = '306977433931';
+const U = n => 'uploads/slika_' + n + '.jpg';
+const GALLERY = [
+  ['01','Terrace','Cocktails at dusk'],['11','Terrace','Garden lights at night'],['08','Terrace','Veranda above the beach'],['12','Terrace','Stone patio'],['06','Terrace','Outdoor lounge'],['10','Terrace','Wicker sofa'],['13','Terrace','Lunch by the sea'],['25-x','Terrace','Outdoor kitchen'],
+  ['03','Views','Aerial view'],['04','Views','Beach and dock'],['05','Views','House from the sea'],['14','Views','The dock'],['02','Views','Dock at dusk'],['16','Views','Sunset'],['15','Views','Nearby beach'],['17','Views','Boat trip'],['18','Views','Pine cove'],['29','Views','Window view'],
+  ['21','Interior','Living room'],['18-f211d1a1','Interior','Lounge'],['13-4b545232','Interior','Day bed'],['35','Interior','Bedroom'],['40','Interior','Bedroom detail'],['10-309f1c88','Interior','Kitchen'],['12-079afc3f','Interior','Kitchen corner'],['27','Interior','Fireplace'],['30','Interior','Sofa wall'],['14-bc1d1475','Interior','Bathroom with skylight'],['33','Interior','Vessel sink'],['38','Interior','Second bathroom'],['34','Interior','Walk-in shower'],['39','Interior','Bathroom'],['28','Interior','Details'],['26','Interior','Kitchen details']
+].map(([n,cat,alt]) => ({ src: U(n.replace('-x','')), cat, alt }));
+
+class Base extends DCLogic {
+  state = { w: 1200, menuOpen: false, filter: 'All', lb: -1, checkin: '', checkout: '', guests: 2, name: '' };
+
+  componentDidMount() {
+    this.onResize = () => this.setState({ w: window.innerWidth });
+    this.onResize();
+    window.addEventListener('resize', this.onResize);
+    let lastY = 0;
+    this.onScroll = () => {
+      const y = window.scrollY, nav = this.navRef.current;
+      if (nav && !this.state.menuOpen) nav.style.transform = 'translateX(-50%) translateY(' + (y > lastY && y > 200 ? '-140%' : '0') + ')';
+      lastY = y;
+      this.syncTrack(); this.fillWords(); this.clip();
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    this.onKey = e => {
+      if (this.state.lb < 0) return;
+      if (e.key === 'Escape') this.setState({ lb: -1 });
+      if (e.key === 'ArrowRight') this.step(1);
+      if (e.key === 'ArrowLeft') this.step(-1);
+    };
+    window.addEventListener('keydown', this.onKey);
+    this.countUp();
+    this.io2 = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.style.transform = 'scaleX(1)'; e.target.style.opacity = 1; } }), { threshold: 0.4 });
+    this.io3 = new IntersectionObserver(es => es.forEach(e => { if (!e.isIntersecting) return; const i = e.target.dataset.room; document.querySelectorAll('[data-room-label]').forEach(l => { const on = l.dataset.roomLabel === i; l.style.color = on ? '#0E1A24' : 'rgba(14,26,36,.3)'; l.style.paddingLeft = on ? '20px' : '0'; }); }), { rootMargin: '-45% 0px -45% 0px' });
+    setTimeout(() => { document.querySelectorAll('[data-line]').forEach(el => this.io2.observe(el)); document.querySelectorAll('[data-room]').forEach(el => this.io3.observe(el)); }, 300);
+    requestAnimationFrame(this.onScroll);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize);
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('keydown', this.onKey);
+    this.io && this.io.disconnect();
+  }
+  navRef = React.createRef(); hsRef = React.createRef(); trackRef = React.createRef(); barRef = React.createRef();
+  fillRef = React.createRef(); clipRef = React.createRef(); clipImg = React.createRef();
+
+  // Vertical page scroll drives the track; a horizontal swipe moves the page scroll to match.
+  hsRange() {
+    const s = this.hsRef.current, t = this.trackRef.current;
+    if (!s || !t) return null;
+    const top = s.getBoundingClientRect().top + window.scrollY;
+    return { s, t, top, len: s.offsetHeight - window.innerHeight, max: t.scrollWidth - t.clientWidth };
+  }
+  syncTrack() {
+    const r = this.hsRange(); if (!r || r.len <= 0) return;
+    const p = Math.min(1, Math.max(0, (window.scrollY - r.top) / r.len));
+    this.fromPage = true;
+    r.t.scrollLeft = p * r.max;
+    if (this.barRef.current) this.barRef.current.style.width = p * 100 + '%';
+    requestAnimationFrame(() => { this.fromPage = false; });
+  }
+  onTrackScroll = () => {
+    if (this.fromPage) return;
+    const r = this.hsRange(); if (!r || r.max <= 0) return;
+    const p = r.t.scrollLeft / r.max;
+    window.scrollTo(0, r.top + p * r.len);
+    if (this.barRef.current) this.barRef.current.style.width = p * 100 + '%';
+  };
+  fillWords() {
+    const el = this.fillRef.current; if (!el) return;
+    const b = el.getBoundingClientRect(), vh = window.innerHeight;
+    const p = Math.min(1, Math.max(0, (vh * 0.85 - b.top) / (b.height + vh * 0.35)));
+    const ws = el.querySelectorAll('[data-w]'), k = Math.round(p * ws.length);
+    ws.forEach((w, i) => { w.style.color = i < k ? '#0E1A24' : 'rgba(14,26,36,.14)'; });
+  }
+  clip() {
+    const s = this.clipRef.current, im = this.clipImg.current; if (!s || !im) return;
+    const b = s.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, -b.top / (s.offsetHeight - window.innerHeight)));
+    const i = 30 * (1 - p), r = 24 * (1 - p);
+    im.style.clipPath = 'inset(' + i + '% ' + i + '% ' + i + '% ' + i + '% round ' + r + 'px)';
+  }
+  countUp() {
+    this.io = new IntersectionObserver(es => es.forEach(e => {
+      if (!e.isIntersecting) return;
+      const el = e.target, end = +el.dataset.count, t0 = performance.now();
+      this.io.unobserve(el);
+      const tick = t => { const k = Math.min(1, (t - t0) / 1400), ease = 1 - Math.pow(2, -10 * k); el.textContent = Math.round(end * (k === 1 ? 1 : ease)); if (k < 1) requestAnimationFrame(tick); };
+      requestAnimationFrame(tick);
+    }), { threshold: 0.6 });
+    setTimeout(() => document.querySelectorAll('[data-count]').forEach(el => this.io.observe(el)), 300);
+  }
+  shown() { return this.state.filter === 'All' ? GALLERY : GALLERY.filter(g => g.cat === this.state.filter); }
+  step(d) { const n = this.shown().length; this.setState(s => ({ lb: (s.lb + d + n) % n })); }
+
+  renderVals() {
+    const { w, menuOpen, filter, lb, checkin, checkout, guests, name } = this.state;
+    const mobile = w < 820;
+    const today = new Date().toISOString().slice(0, 10);
+    const nights = checkin && checkout ? Math.round((new Date(checkout) - new Date(checkin)) / 864e5) : 0;
+    const msg = 'Hello! I would like to book Vourvourou Beach House' + (nights > 0 ? ' from ' + checkin + ' to ' + checkout + ' (' + nights + ' nights)' : '') + ' for ' + guests + ' guest' + (guests > 1 ? 's' : '') + '.' + (name ? ' My name is ' + name + '.' : '');
+    const shown = this.shown();
+    const words = 'Anchored on the waterfront, this remodeled beach house basks in the pleasures of the seashore.'.split(' ');
+    const closeMenu = () => this.setState({ menuOpen: false });
+    return {
+      isMobile: mobile, navBook: mobile ? 'Book' : 'Book your stay →', deskDisplay: mobile ? 'none' : 'flex', cols: w < 560 ? 2 : w < 1000 ? 3 : 4,
+      menuOpen, menuLabel: menuOpen ? '✕' : 'Menu', toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })), closeMenu,
+      menuLinks: [['house.html','The house'],['gallery.html','Gallery'],['location.html','Location'],['book.html','Book']].map(([href,label],i) => ({ href, label, delay: (0.08 * i + 0.1) + 's' })),
+      today, checkin, checkout, guests, name,
+      setCheckin: e => this.setState({ checkin: e.target.value }),
+      setCheckout: e => this.setState({ checkout: e.target.value }),
+      setGuests: e => this.setState({ guests: +e.target.value }),
+      setName: e => this.setState({ name: e.target.value }),
+      guestInc: () => this.setState(s => ({ guests: Math.min(6, s.guests + 1) })),
+      guestDec: () => this.setState(s => ({ guests: Math.max(1, s.guests - 1) })),
+      heroSubmit: e => { e.preventDefault(); const b = document.getElementById('book'); b && window.scrollTo({ top: b.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' }); },
+      nightsLabel: nights > 0 ? nights + (nights === 1 ? ' night' : ' nights') : 'Select dates',
+      waLink: 'https://wa.me/' + PHONE + '?text=' + encodeURIComponent(msg),
+      viberLink: 'viber://chat?number=%2B' + PHONE,
+      introWords: words,
+      stats: [{ n: 85, label: 'm² house' }, { n: 400, label: 'm² private plot' }, { n: 1, label: 'bedroom' }, { n: 2, label: 'bathrooms' }, { n: 4, label: 'beds' }, { n: 1, label: 'free SUP board' }],
+      hsRef: this.hsRef, trackRef: this.trackRef, barRef: this.barRef, navRef: this.navRef, fillRef: this.fillRef, clipRef: this.clipRef, clipImg: this.clipImg,
+      hsHeight: mobile ? '260svh' : '360svh', onTrackScroll: this.onTrackScroll,
+      rooms: [
+        { img: U('12'), title: 'The garden', text: 'Privately fenced, shaded by pines. Yours alone.' },
+        { img: U('04'), title: 'The beach', text: 'Stone stairs lead from the garden straight to the sand.' },
+        { img: U('14'), title: 'The dock', text: 'A small dock in front of the house for boat owners.' },
+        { img: U('11'), title: 'Evenings', text: 'String lights, a hammock chair and the sound of the waves.' },
+        { img: U('21'), title: 'Living room', text: 'Timber beams, handmade pieces, a sofa that opens to a double bed.' },
+        { img: U('14-bc1d1475'), title: 'Bathrooms', text: 'Onyx stone, brass taps and a skylight over the basin.' }
+      ].map((r, i) => ({ ...r, num: '0' + (i + 1) })),
+      amenities: ['Direct private beach access','Private fenced garden','Small dock','Free SUP board','Stone BBQ with kitchenette','Outdoor garden shower','Air conditioning','Free private parking','Dining table on the veranda'].map((label, i) => ({ label, n: '0' + (i + 1) })),
+      marqueeA: ['Sunrise swims','Afternoon siesta','Sea breeze','Pine shade','Calm water','Barbecue nights'],
+      marqueeB: ['Vourvourou','Halkidiki','Sithonia','Aegean Sea','Vourvourou','Halkidiki'],
+      filters: ['All','Interior','Terrace','Views'].map(label => ({ label, bg: label === filter ? '#0E1A24' : 'transparent', fg: label === filter ? '#F4F1EA' : '#0E1A24', pick: () => this.setState({ filter: label }) })),
+      shown: shown.map((g, i) => ({ ...g, open: () => this.setState({ lb: i }) })),
+      lbOpen: lb >= 0, lbSrc: lb >= 0 ? shown[lb].src : '', lbAlt: lb >= 0 ? shown[lb].alt : '',
+      lbCount: String(lb + 1).padStart(2, '0') + ' / ' + String(shown.length).padStart(2, '0'),
+      lbClose: () => this.setState({ lb: -1 }), lbPrev: () => this.step(-1), lbNext: () => this.step(1),
+      lbTouchStart: e => { this.tx = e.touches[0].clientX; },
+      lbTouchEnd: e => { const dx = e.changedTouches[0].clientX - this.tx; if (Math.abs(dx) > 40) this.step(dx < 0 ? 1 : -1); },
+      views: [{ img: U('18'), title: 'Hidden coves' }, { img: U('17'), title: 'Boat trips' }, { img: U('16'), title: 'Still evenings' }]
+    };
+  }
+}
+
+
+// Booking config — edit here
+const PRICE_PER_NIGHT = 150; // placeholder price (EUR)
+const CLEANING_FEE = 40;
+const MIN_NIGHTS = 2;
+const BOOKED_DATES = ['2026-11-06','2026-11-07','2026-11-08','2026-11-14','2026-11-15','2026-11-21','2026-11-22','2026-11-23','2026-12-04','2026-12-05','2026-12-24','2026-12-25','2026-12-26','2027-01-01','2027-01-02'];
+const iso = d => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+const fmtD = id => id ? new Date(id + 'T12:00').toLocaleDateString('en', { day: 'numeric', month: 'short' }) : '—';
+const eur = n => '€' + n.toLocaleString('en');
+
+class Component extends Base {
+  state = Object.assign({}, this.state, (() => {
+    const q = new URLSearchParams(location.search), ci = q.get('checkin') || '', now = new Date();
+    const mo = ci ? Math.max(0, (new Date(ci).getFullYear() - now.getFullYear()) * 12 + new Date(ci).getMonth() - now.getMonth()) : 0;
+    return { step: 1, ci, co: q.get('checkout') || '', g: Math.min(6, Math.max(1, +(q.get('guests') || 2))), mo, f: { name: '', email: '', phone: '', country: '' }, arrival: '16:00', note: '', t: {}, done: false, sumOpen: false };
+  })());
+  pick(d) {
+    this.setState(s => {
+      if (!s.ci || s.co || d <= s.ci || BOOKED_DATES.some(b => b > s.ci && b < d)) return { ci: d, co: '' };
+      return { co: d };
+    });
+  }
+  go(step) { this.setState({ step, sumOpen: false }); const el = document.getElementById('booking'); el && window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 90, behavior: 'smooth' }); }
+  renderVals() {
+    const b = super.renderVals(), s = this.state, mobile = s.w < 820, today = iso(new Date());
+    const nights = s.ci && s.co ? Math.round((new Date(s.co) - new Date(s.ci)) / 864e5) : 0;
+    const ok1 = nights >= MIN_NIGHTS;
+    const start = new Date(); start.setDate(1);
+    const months = Array.from({ length: mobile ? 1 : 2 }, (_, k) => {
+      const m = new Date(start.getFullYear(), start.getMonth() + s.mo + k, 1), first = (m.getDay() + 6) % 7, days = new Date(m.getFullYear(), m.getMonth() + 1, 0).getDate();
+      const cells = Array.from({ length: first }, () => ({ d: '', vis: 'hidden', off: true, pick: null, bg: 'transparent', fg: '', deco: 'none', cursor: 'default', band: 'transparent', bandR: '0' }));
+      for (let d = 1; d <= days; d++) {
+        const id = iso(new Date(m.getFullYear(), m.getMonth(), d)), off = id < today || BOOKED_DATES.includes(id);
+        const isS = id === s.ci, isE = id === s.co, inR = s.ci && s.co && id > s.ci && id < s.co, both = s.ci && s.co;
+        cells.push({ d, vis: 'visible', off, pick: () => this.pick(id), bg: isS || isE ? '#0F4C6E' : 'transparent', fg: isS || isE ? '#fff' : off ? 'rgba(14,26,36,.25)' : '#0E1A24', deco: BOOKED_DATES.includes(id) ? 'line-through' : 'none', cursor: off ? 'not-allowed' : 'pointer',
+          band: inR || (both && (isS || isE)) ? 'rgba(15,76,110,.12)' : 'transparent', bandR: both && isS ? '999px 0 0 999px' : both && isE ? '0 999px 999px 0' : '0' });
+      }
+      return { name: m.toLocaleString('en', { month: 'long', year: 'numeric' }), cells };
+    });
+    const f = s.f;
+    const errs = { name: f.name.trim().length < 2 ? 'Please enter your full name' : '', email: /^\S+@\S+\.\S+$/.test(f.email) ? '' : 'Please enter a valid email', phone: f.phone.replace(/\D/g, '').length < 6 ? 'Please enter a phone or WhatsApp number' : '', country: f.country.trim() ? '' : 'Please enter your country' };
+    const ok2 = !Object.values(errs).some(Boolean);
+    const fields = [['name', 'Full name', 'text'], ['email', 'Email', 'email'], ['phone', 'Phone / WhatsApp', 'tel'], ['country', 'Country', 'text']].map(([k, label, type]) => ({
+      label, type, value: f[k], err: s.t[k] ? errs[k] : '', border: s.t[k] ? (errs[k] ? '#B4532A' : '#0F4C6E') : 'rgba(0,0,0,.1)',
+      onChange: e => { const v = e.target.value; this.setState(st => ({ f: { ...st.f, [k]: v } })); },
+      onBlur: () => this.setState(st => ({ t: { ...st.t, [k]: true } }))
+    }));
+    const toStep3 = () => ok2 ? this.go(3) : this.setState({ t: { name: true, email: true, phone: true, country: true } });
+    const request = () => this.setState({ done: true });
+    const datesLabel = s.ci ? fmtD(s.ci) + ' – ' + fmtD(s.co) : 'Select dates';
+    const total = nights > 0 ? eur(nights * PRICE_PER_NIGHT + CLEANING_FEE) : '€0';
+    return {
+      ...b, isMobile: mobile, notMobile: !mobile,
+      bookCols: mobile ? '1fr' : 'minmax(0,1fr) 380px', monthCols: mobile ? '1fr' : '1fr 1fr',
+      steps: ['1 Dates', '2 Details', '3 Confirm'].map((label, i) => ({ label, color: i < s.step ? '#0E1A24' : 'rgba(14,26,36,.35)' })),
+      progress: (s.step / 3 * 100) + '%', isStep1: s.step === 1, isStep2: s.step === 2, isStep3: s.step === 3,
+      months, prevMonth: () => this.setState(st => ({ mo: Math.max(0, st.mo - 1) })), nextMonth: () => this.setState(st => ({ mo: st.mo + 1 })),
+      prevOff: s.mo === 0, prevOpacity: s.mo === 0 ? 0.3 : 1,
+      pickHint: !s.ci ? 'Select check-in date' : !s.co ? 'Select check-out date' : nights + ' nights selected',
+      g: s.g, guestInc2: () => this.setState(st => ({ g: Math.min(6, st.g + 1) })), guestDec2: () => this.setState(st => ({ g: Math.max(1, st.g - 1) })),
+      minMsg: nights > 0 && nights < MIN_NIGHTS ? 'Minimum stay is ' + MIN_NIGHTS + ' nights.' : '',
+      step1Off: !ok1, step1Opacity: ok1 ? 1 : 0.35, toStep2: () => ok1 && this.go(2),
+      fields, arrival: s.arrival, setArrival: e => this.setState({ arrival: e.target.value }),
+      hours: ['12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00','21:00','22:00'],
+      note: s.note, setNote: e => this.setState({ note: e.target.value }),
+      toStep1: () => this.go(1), toStep2b: () => this.go(2), toStep3, step2Opacity: ok2 ? 1 : 0.5,
+      notDone: !s.done, done: s.done, request,
+      review: [['Dates', datesLabel], ['Nights', String(nights)], ['Guests', String(s.g)], ['Name', f.name], ['Email', f.email], ['Phone', f.phone], ['Country', f.country], ['Arrival', s.arrival], ['Note', s.note || '—'], ['Total', total]].map(([k, v]) => ({ k, v })),
+      datesLabel, guestsLabel: s.g + (s.g > 1 ? ' guests' : ' guest'),
+      nightsCalc: eur(PRICE_PER_NIGHT) + ' × ' + nights + ' nights', nightsTotal: eur(nights * PRICE_PER_NIGHT), cleaning: nights > 0 ? eur(CLEANING_FEE) : '€0', total,
+      sumOpen: s.sumOpen, sumArrow: s.sumOpen ? '▾' : '▴', toggleSum: () => this.setState(st => ({ sumOpen: !st.sumOpen })),
+      barLabel: s.step === 1 ? 'Continue' : s.step === 2 ? 'Review' : s.done ? 'Done' : 'Request',
+      barAction: s.step === 1 ? () => ok1 && this.go(2) : s.step === 2 ? toStep3 : request
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://avellagency.github.io/beachhouse/sitemap.xml
